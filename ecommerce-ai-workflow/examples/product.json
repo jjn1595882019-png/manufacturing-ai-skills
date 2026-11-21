@@ -1,0 +1,12 @@
+{
+  "product_name": "桌面收纳盒",
+  "platform": "国内电商示例平台",
+  "audience": "希望整理桌面文具的用户",
+  "facts": [
+    {"id": "F1", "label": "材质", "value": "塑料"},
+    {"id": "F2", "label": "尺寸", "value": "长20厘米，宽10厘米，高8厘米"},
+    {"id": "F3", "label": "结构", "value": "三个分区"},
+    {"id": "F4", "label": "颜色", "value": "白色"}
+  ],
+  "missing_information": ["承重数据未提供", "是否可接触食品未提供"]
+}
