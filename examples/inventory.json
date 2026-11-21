@@ -1,0 +1,6 @@
+{
+  "inventory": [
+    {"code": "M101", "unit": "件", "on_hand": "12", "allocated": "2", "on_order": "8"},
+    {"code": "M102", "unit": "颗", "on_hand": "50", "allocated": "10", "on_order": "30"}
+  ]
+}

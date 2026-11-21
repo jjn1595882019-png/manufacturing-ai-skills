@@ -1,0 +1,16 @@
+{
+  "root": "P100",
+  "quantity": "10",
+  "materials": [
+    {"code": "P100", "name": "演示成品", "unit": "台"},
+    {"code": "A100", "name": "演示组件", "unit": "套"},
+    {"code": "M101", "name": "演示板材", "unit": "件"},
+    {"code": "M102", "name": "演示螺钉", "unit": "颗"}
+  ],
+  "bom": [
+    {"parent": "P100", "child": "A100", "quantity": "1", "loss_rate": "0"},
+    {"parent": "P100", "child": "M102", "quantity": "2", "loss_rate": "0"},
+    {"parent": "A100", "child": "M101", "quantity": "2", "loss_rate": "0.05"},
+    {"parent": "A100", "child": "M102", "quantity": "4", "loss_rate": "0"}
+  ]
+}
